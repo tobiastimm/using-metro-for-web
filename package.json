@@ -1,0 +1,31 @@
+{
+  "name": "using-metro-for-web",
+  "version": "1.0.0",
+  "description": "A boilerplate to use 🚆 for web bundling!",
+  "repository": "https://github.com/tobiastimm/using-metro-for-web",
+  "author": "Tobias Timm <tbs.timm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean && mkdir ./dist",
+    "start": "nodemon --watch server.js server.js",
+    "build": "metro build index.js --source-map true --minify true --platform web --out ./dist/index.js"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4",
+    "metro": "^0.53.1",
+    "metro-core": "^0.53.1",
+    "metro-minify-terser": "^0.53.1",
+    "metro-visualizer": "^0.53.1",
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3"
+  }
+}
