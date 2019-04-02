@@ -21,10 +21,12 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "express": "^4.16.4",
+    "memory-fs": "^0.4.1",
     "metro": "^0.53.1",
-    "metro-core": "^0.53.1",
+    "metro-config": "^0.53.1",
     "metro-minify-terser": "^0.53.1",
     "metro-visualizer": "^0.53.1",
+    "node-html-parser": "^1.1.13",
     "nodemon": "^1.18.10",
     "rimraf": "^2.6.3"
   }
