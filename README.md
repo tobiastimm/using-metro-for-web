@@ -36,7 +36,7 @@ yarn start
 
 ## ToDo
 
-- [ x ] HMR (really really basic)
+- [x] HMR (really really basic)
 - [ ] Support for HTML, CSS, SCSS, LESS, Stylus, ...
 
 ## License
