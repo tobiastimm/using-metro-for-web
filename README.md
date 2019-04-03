@@ -1,6 +1,6 @@
 # using-metro-for-web
 
-> A boilerplate to use 🚆 for web bundling!
+> A boilerplate to use 🚇 for web bundling!
 
 This boilerplate shows how to use [`metro`](https://github.com/facebook/metro) as a web bundler.
 
@@ -36,7 +36,7 @@ yarn start
 
 ## ToDo
 
-- [ ] HMR
+- [ x ] HMR (really really basic)
 - [ ] Support for HTML, CSS, SCSS, LESS, Stylus, ...
 
 ## License
